@@ -1,0 +1,1 @@
+# pesquisa_de_desenvolvimento_de_detector_de_desmatamento
