@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 # Carregando imagem
-image = cv2.imread('imagens/img_1.png')
+image = cv2.imread('imagens/img_5.png')
 
 # Criando HSV da imagem
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)

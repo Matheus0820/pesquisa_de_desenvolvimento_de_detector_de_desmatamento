@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6841e8d-0a27-4e8a-b6c0-290d4a22da6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pesquisa_de_desenvolvimento_de_detector_de_desmatamento.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/imagens/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens para o artigo/descrição da img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens para o artigo/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens para o artigo/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens para o artigo/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/imagens/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/imagens/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/imagens/img_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pesquisa_de_desenvolvimento_de_detector_de_desmatamento.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pesquisa_de_desenvolvimento_de_detector_de_desmatamento.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/Detect_dematament_satelite_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/Detect_dematament_satelite_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/imagens/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/imagens/img.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="30WdPZ74JMVQ9L3RuO9oy5tGxdk" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
@@ -36,15 +39,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Detect_dematament_satelite_image.executor": "ConcurrencyExecutor",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "C:/Users/Aluno/Documents/Matheus Ramos/Projetos/pesquisa_de_desenvolvimento_de_detector_de_desmatamento/algoritmo_v1_com_opencv_e_numpy/imagens",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aluno\Documents\Matheus Ramos\Projetos\pesquisa_de_desenvolvimento_de_detector_de_desmatamento\algoritmo_v1_com_opencv_e_numpy\imagens" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Detect_dematament_satelite_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pesquisa_de_desenvolvimento_de_detector_de_desmatamento" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -55,6 +73,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/Detect_dematament_satelite_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -70,6 +89,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +105,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753747238824</updated>
+      <workItem from="1753801004716" duration="1103000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
