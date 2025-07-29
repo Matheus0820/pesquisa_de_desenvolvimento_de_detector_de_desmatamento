@@ -41,15 +41,29 @@ res_non_green_and_blue = cv2.bitwise_and(image, image, mask=non_green_and_blue_m
 
 
 # Criando sobreposição colorida na imagem original de área desmatada
+img_sbp = np.zeros_like(image, dtype=np.uint8)
+img_sbp[non_green_and_blue_mask == 255] = (0, 0, 255) # Definindo a imagem de sobreposição como a mascara de cor vermelha
+
+# Colocando sobreposição na imagem original
+image_com_sbp = cv2.addWeighted(image, 0.5, img_sbp, 0.5, 0)
 
 
+# Redimensionando imagens
+largura = 600
+altura = 500
+image = cv2.resize(image, (largura, altura), interpolation=cv2.INTER_AREA)
+image_com_sbp = cv2.resize(image_com_sbp, (largura, altura), interpolation=cv2.INTER_AREA)
 
+# Colando Imagens
+merged_image = np.hstack((image, image_com_sbp))
 
+# Mostrando Resultado
+cv2.imshow('Resultado - Áreas possivelmente desmatada', merged_image)
+
+# Mostrando imagens
 # cv2.imshow('Imagem Original', image)
-# cv2.imshow('Mascara NAO Verde', green_not_mask)
-# cv2.imshow('Mascara NAO Azul', blue_not_mask)
-# cv2.imshow('Mascara: NEM Verde NEM Azul (Interseccao)', non_green_and_blue_mask)
-# # cv2.imshow('Resultado: Somente NEM Verde NEM Azul', res_non_green_and_non_blue)
+# cv2.imshow('Mascara: Sem verde e azul (Interseccao)', non_green_and_blue_mask)
+# cv2.imshow('Localização de desmatamento', image_com_sbp)
 
 cv2.waitKey(0)
 # cv2.destroyAllWindows()
