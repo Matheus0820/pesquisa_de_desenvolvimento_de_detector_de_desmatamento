@@ -1,3 +1,9 @@
+# Melhorias pedentes:
+# 1 - Criar máscara para remover nuvens
+# 2 - Criar máscara para remover bordas pretas
+# 3 - Calcular área em pixel - Ver se é possível trasforma em km^2
+# 4 - Organizar imagens e informações sobre elas - Cidade, Estado, Data de registro, Satélite
+
 # Importando bibliotecas
 import numpy as np
 import cv2
@@ -14,7 +20,7 @@ green_donw = np.array([35, 10, 10]) # EM HSV
 green_upper = np.array([85, 255, 255]) # EM HSV
 
 # Azul
-blue_donw = np.array([94, 80, 2]) # EM HSV
+blue_donw = np.array([90, 50, 20]) # EM HSV
 blue_upper = np.array([120, 255, 255]) # EM HSV
 
 # Criando máscaras para as duas cores
@@ -24,9 +30,9 @@ blue_mask = cv2.inRange(hsv, blue_donw, blue_upper)
 # Criando a visinhaça de pixel considerada
 karnel = np.ones((5, 5), 'uint8')
 
-# Ditalando a mascara - Deixando ela maior
-green_mask = cv2.dilate(green_mask, karnel)
-blue_mask = cv2.dilate(blue_mask, karnel)
+# Ditalando a mascara - Deixando ela maior e corrigindo erros
+green_mask = cv2.morphologyEx(green_mask, cv2.MORPH_CLOSE, karnel)
+blue_mask = cv2.morphologyEx(blue_mask, cv2.MORPH_CLOSE, karnel)
 
 # Região onde a área não é verde ou azul - Área desmatada, urbanizada ou queimada
 green_not_mask = cv2.bitwise_not(green_mask)
