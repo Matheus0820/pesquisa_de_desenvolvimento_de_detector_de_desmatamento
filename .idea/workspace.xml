@@ -5,22 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6841e8d-0a27-4e8a-b6c0-290d4a22da6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Imagens para o artigo/descrição da img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens para o artigo/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens para o artigo/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens para o artigo/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/imagens/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/imagens/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/imagens/img_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pesquisa_de_desenvolvimento_de_detector_de_desmatamento.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pesquisa_de_desenvolvimento_de_detector_de_desmatamento.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/funcoes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagens para analise/Região Centro Oeste - Mato Grosso/CBERS_4A_MUX_20250719_218_129.png" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/Imagens_para_analise/Regiao_Centro_Oeste-Mato_Grosso/CBERS_4A_MUX_20250719_218_129.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagens para analise/Região Centro Oeste - Mato Grosso/CBERS_4A_WPM_20250728_210_123.png" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/Imagens_para_analise/Regiao_Centro_Oeste-Mato_Grosso/CBERS_4A_WPM_20250728_210_123.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagens para analise/Região Nordeste - Próxima ao Maranhão/CBERS_4A_MUX_20250727_204_120.png" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/Imagens_para_analise/Regiao_Nordeste-Proxima_ao_Maranhao/CBERS_4A_MUX_20250727_204_120.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagens para analise/Região Nordeste - Próxima ao Maranhão/CBERS_4A_MUX_20250728_210_122.png" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/Imagens_para_analise/Regiao_Nordeste-Proxima_ao_Maranhao/CBERS_4A_MUX_20250728_210_122.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagens para analise/Região Norte - Amazônia e Rondônia/CBERS_4A_MUX_20250726_229_126.png" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/Imagens_para_analise/Regiao_Norte-Amazonia_e_Rondonia/CBERS_4A_MUX_20250726_229_126.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagens para analise/Região Norte - Amazônia e Rondônia/CBERS_4A_WFI_20250719_218_124.png" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/Imagens_para_analise/Regiao_Norte-Amazonia_e_Rondonia/CBERS_4A_WFI_20250719_218_124.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/Detect_dematament_satelite_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/Detect_dematament_satelite_image.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,32 +43,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Detect_dematament_satelite_image.executor": "ConcurrencyExecutor",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Aluno/Documents/Matheus Ramos/Projetos/pesquisa_de_desenvolvimento_de_detector_de_desmatamento/algoritmo_v1_com_opencv_e_numpy/imagens",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Detect_dematament_satelite_image.executor&quot;: &quot;ConcurrencyExecutor&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Theus/OneDrive/Documentos/Códigos/Repositórios/pesquisa_de_desenvolvimento_de_detector_de_desmatamento&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Aluno\Documents\Matheus Ramos\Projetos\pesquisa_de_desenvolvimento_de_detector_de_desmatamento\algoritmo_v1_com_opencv_e_numpy\imagens" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Theus\OneDrive\Documentos\Códigos\Repositórios\pesquisa_de_desenvolvimento_de_detector_de_desmatamento\algoritmo_v1_com_opencv_e_numpy" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Detect_dematament_satelite_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pesquisa_de_desenvolvimento_de_detector_de_desmatamento" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -83,8 +91,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pesquisa_de_desenvolvimento_de_detector_de_desmatamento" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algoritmo_v1_com_opencv_e_numpy/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.Detect_dematament_satelite_image" />
       </list>
     </recent_temporary>
